@@ -2,6 +2,8 @@
 
 ## <a href="https://jsfiddle.net/anrc9w3u/">https://jsfiddle.net/anrc9w3u/</a>
 
+The subscription, notification and un-subscription can happen inside the scope of the click handler or in the global scope, depending on other events, however take care of un-subscription on unmount / destroy, or i.e. when navigating to another component / page.
+
 <img src="image.png">
 
 ```html
